@@ -53,6 +53,33 @@ ul {
 #profile {
     margin: 50px auto;
 }
+/* skills */
+.mySkills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+.skillCardSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 48px 24px 0;
+}
+div.skillContainer {
+    background-color: #D1DCE0;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0 24px;
+    width: 100%;
+}
+h3.skillClass {
+    text-align: center;
+    margin-bottom: 24px;
+}
+li {
+    font-size: 18px;
+    margin-top: 8px;
+}
 /* past projects section */
 h1 {
     font-size: 48px;
@@ -68,19 +95,25 @@ h1 {
     background-color: #D1DCE0;
     border-radius: 20px;
     justify-content: space-between;
+    /*align-items: center;*/
 }
 .mockup {
     max-height: 320px;
     width: 48%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .laptopImg {
     max-width: 100%;
-    
+    max-height: 100%;
+
 }
 h3 {
     font-size: 24px;
     font-weight: 600;
     margin: 0;
+
 }
 .caseDesc {
     font-size: 18px;
@@ -121,4 +154,5 @@ ul.foot {
 }
 li.foot {
     padding: 0 20px 20px 20px;
+    font-size: 14px;
 }
