@@ -1,0 +1,124 @@
+body {
+    background-color: #F1F1F1;
+    font-family: 'Open Sans', sans-serif;
+    color: #3B4043;
+    margin: auto;
+}
+/* header*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+}
+div.logo {
+    padding: 10px;
+    align-items: center;
+    height: 36px;
+}
+nav.topNav {
+    padding: 8px;
+}
+li.topNav {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 8px;
+    margin: 0 8px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+ul {
+    margin: auto;
+}
+/* hero section */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px;
+}
+.hero {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+    padding: 32px 150px;
+}
+.hero p {
+    margin: 30px 0 0 0;
+}
+#profile {
+    margin: 50px auto;
+}
+/* past projects section */
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+}
+.caseStudy {
+    display: flex;
+    flex-direction: row;
+    margin: 48px 0 0 0;
+    padding: 60px;
+    background-color: #D1DCE0;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.mockup {
+    max-height: 320px;
+    width: 48%;
+}
+.laptopImg {
+    max-width: 100%;
+    
+}
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.caseDesc {
+    font-size: 18px;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button {
+    color: white;
+    background: #1F4E5F;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: fit-content;
+}
+p.desc {
+    margin: 32px 0;
+}
+/* footer section*/
+footer {
+    background-color: #1F4E5F;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.foot {
+    margin: auto;
+    text-decoration: none;
+}
+ul.foot {
+    display: inline-flex;
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+li.foot {
+    padding: 0 20px 20px 20px;
+}
